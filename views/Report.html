@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignwise</title>
+
+        <!--ICONSCOUT CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!--Google Font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+            .course {
+                margin-top: 1rem;
+            }
+        </style>
+    </head>
+
+    <body>
+        <nav>
+            <div class="container nav_container">
+                <a href="/"><h1>Assignwise</h1></a>
+                <input type="checkbox" id="toggle-menu">
+                <label for="toggle-menu" class="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+                <ul class="nav_menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/assignmentreport">Report</a></li>
+                    <li><a href="/presentation">Presentation</a></li>
+                    <li><a href="/questionsolution">Solution</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+                <!-- <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+                <button id="close-menu-btn"><i class="uil uil-multiply"></i></button> -->
+            </div>
+        </nav> 
+        <!--===== END OF NAVBAR =====-->
+
+
+
+
+        <section class="courses">
+            <div class="search-box">
+                <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" class="input-search" id="myInput" onkeyup="myFunction()" placeholder="Search">
+            </div>
+            <h2>Report</h2>
+            <div class="container courses_container" id="myCourses">
+                
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/AI.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>Ethical AI for decision-making process :- Critical Thinking</h4>
+                    <p>
+                        This report includes introduction of Ethical AI for decision-making process, argument,
+                        premises, brief summary and conclusion.
+                    </p>
+                    <a href="./Report/Ethical AI for decision-making process.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/student-management-system.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>Student Management System :- Database</h4>
+                    <p>
+                        This report includes the Database Logical Model, Hardware and Software Specifications, 
+                        SQL code for the Entity-Relationship Diagram, Relational Schema, and Normalization. 
+                    </p>
+                    <a href="./Report/Student Management System Database Report.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/applications-of-iot-in-agriculture.jpg">
+                    </div>
+                    <div class="course_info">    
+                        <h4>IoT Based Smart Agriculture System :- Internet of Things</h4>
+                    <p>
+                        This report includes Introduction of Smart Agriculture System, working priniple, diagram, farm onitoring system, 
+                        software program, observation, reading and conclusion. 
+                    </p>
+                    <a href="./Report/IoT Based Smart Agriculture System.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/Billing_system.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4> Billing System Programming</h4>
+                        <p>
+                            This report includes the Introduction to the Billing System, an elaborate Algorithm section, 
+                            a UML Classes Diagram, the Source Code, a Test Plan, Test Data, and Output.
+                        </p>
+                        <a href="./Report/Billingf System Java Report.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/car.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4>Car Insurance Management System</h4>
+                        <p>
+                            This report includes the Database Logical Model, Hardware and Software Specifications, 
+                            SQL code for the Entity-Relationship Diagram, Relational Schema, and Normalization.
+                        </p>
+                        <a href="/Report/Car Insurance Management.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/e-commerce.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4>E-commerce Website</h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output.
+                        </p>
+                        <a href="/Report/E-commerce Website  Report  Web Development.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/Billing_system.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4> Billing System Programming</h4>
+                        <p>
+                            This report includes the Introduction to the Billing System, an elaborate Algorithm section, 
+                            a flowchart diagram, the Source Code, a Test Plan, Test Data, and Output.
+                        </p>
+                        <a href="./Report/Bill Printing System  Report C Programming.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/FSD.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4>Functional Specification</h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output.
+                        </p>
+                        <a href="./Report/Functional Specification Report Software modelling.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/Misuse+Case.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4>Misuse Case of Banking System</h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output.
+                        </p>
+                        <a href="/Report/Misuse Case of Banking System Report Software Security.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/SRS.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4>Requirements Specification</h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output.
+                        </p>
+                        <a href="/Report/Requirements Specification Report  Software Modelling.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/cave.jpeg">
+                    </div>
+                    <div class="course_info">
+                        <h4>Allegory Of the Cave</h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output.
+                        </p>
+                        <a href="/Report/Allegory Of the Cave & BOB Review Report.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/fieldautomationbanner.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>Feild Visit of Software Company</h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output.
+                        </p>
+                        <a href="/Report/Feild Visit of Software Company Report.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/Ed.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4>Ethical Dilemma</h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output.
+                        </p>
+                        <a href="/Report/Ethical Dilemma Report.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/Assembly-language-programming-with-8085-microprocessor.jpg">
+                    </div>
+                    <div class="course_info">
+                        <h4>Assembly Language Program using MASM assembler and AFD debugger</h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output.
+                        </p>
+                        <a href="/Report/Assembly Language Program using MASM assembler and AFD debugger.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+
+                <article class="course">
+                    <div class="course_image">
+                        <img src="./Report/image/AFD.png">
+                    </div>
+                    <div class="course_info">
+                        <h4>Assembly Language Program in 8085 Microprocessor </h4>
+                        <p>
+                            This report includes the Introduction of E-commerce Website, sitemap diagram, 
+                            the Source Code, a Test Plan, and Output. 
+                        </p>
+                        <a href="/Report/Assembly Language Program in 8085 Microprocessor Report.pdf" class="btn btn-primary">Click Here</a>
+                    </div>
+                </article>
+                
+                
+            </div>
+        </section>
+        <!-- ==== END OF Assignment Report ===== -->
+
+
+        <footer>
+            <div class="container footer_container">
+                <div class="footer_1">
+                    <a href="index.html" class="footer_logo"><h4>Assignwise</h4></a>
+                    <p>
+                        Assignwise is a platform where you can get knowledge about report writing, presentation 
+                        and solve questions related to BIT, BCA & BSc CSIT.
+                    </p>
+                </div>
+
+                <div class="footer_2">
+                    <h4>Social Media</h4>
+                    <div>
+                       <p><i class="fa-brands fa-facebook"></i>  Assignwise</p>
+                        <p><i class="fa-brands fa-youtube"></i>  @Assignwise</p>
+                    </div>
+                </div>
+
+                <div class="footer_3">
+                    <h4>Primary</h4>
+                    <ul class="privacy">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms and conditions</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_4">
+                    <h4>Contact Us</h4>
+                    <div>
+                        <p><i class="fa-solid fa-phone"></i>  +977 9741736910</p>
+                        <p><i class="fa-solid fa-envelope"></i>  assignwise9@gmail.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i>  Kathmandu, Nepal</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer_copyright">
+                <small>Assignwise 2024 : All Rights Reserved</small>
+            </div>
+        </footer>
+
+
+        <script src="./main.js"></script>
+    </body>
+</html>
