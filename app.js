@@ -5,7 +5,7 @@ import cors from 'cors'
 import router from './src/router/router.js'
 
 const app = express();
-const port = process.evn.PORT || 3000;
+const port = 3000;
 
 app.use(cors())
 app.use(express.static('public'))
